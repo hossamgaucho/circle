@@ -1,0 +1,89 @@
+.nav-bg {
+  background-color: #312c51;
+  padding: 20px;
+  text-align: right;
+}
+
+.anchor {
+  text-decoration: none !important;
+  color: aliceblue !important;
+}
+
+.site-title {
+  text-decoration: none !important;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f0c38e;
+  padding-left: 50px;
+}
+.nav-img {
+  display: inline;
+}
+.menu-items {
+  display: inline;
+  color: aliceblue;
+}
+.menu-items a {
+  margin: 0px 20px;
+}
+.header {
+  background-color: #48426d;
+  padding: 50px 70px;
+}
+h1,
+h2,
+h3,
+p,
+label {
+  color: aliceblue;
+  text-align: center;
+}
+
+.app {
+  background-color: #312c51;
+  padding: 50px 35%;
+}
+
+@media only screen and (max-width: 1500px) {
+  .app {
+    background-color: #312c51;
+    padding: 50px 20%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .app {
+    background-color: #312c51;
+    padding: 50px 10%;
+  }
+}
+.app-card {
+  padding: 0px 10%;
+  margin: 0px 10%;
+  border-radius: 25px;
+  background-image: linear-gradient(#48426d, #3d385c);
+  text-align: center;
+}
+.circle {
+  height: 150px;
+  width: 150px;
+  background-color: aliceblue;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 50px 0px 100px 0px;
+}
+.calc {
+  text-align: center;
+  display: block;
+}
+
+.result {
+  padding: 20px 0px;
+}
+
+#footer {
+  color: #48426d;
+  text-align: center;
+  padding: 30px;
+  background-color: #f0c38e;
+}
